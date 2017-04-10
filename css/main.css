@@ -150,6 +150,22 @@ h3 {
   font-family: "Patua One", cursive;
 }
 
+.samples {
+  background-color: #f2f2f2;
+}
+
+.questions {
+  background-color: #f2f2f2;
+}
+
+.questions1 {
+  font-family: "Patua One", cursive;
+}
+
+.questions2 {
+  font-family: "Glegoo", serif;
+}
+
 footer {
   background-color: #000;
   overflow: hidden;
