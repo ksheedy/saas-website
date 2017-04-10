@@ -1,0 +1,269 @@
+html {
+  font-family: "Glegoo", serif;
+}
+
+header {
+  position: relative;
+}
+
+.header-bar {
+  background-color: #000;
+  height: 75px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 12em;
+  max-height: 12em;
+  z-index: 1000;
+}
+
+nav {
+  display: inline-block;
+}
+
+.top-nav {
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 6em;
+  text-align: center;
+  display: none;
+  background-color: #000;
+  z-index: 500;
+  padding-top: 6em;
+}
+
+.top-nav li {
+  display: block;
+}
+
+.top-nav a {
+  color: #fff;
+  font-size: 2em;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+}
+
+.top-nav a:hover {
+  background-color: #2bb673;
+  color: #fff;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .top-nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: .25em;
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  left: 0;
+  top: 0;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #2bb673;
+  padding: .125em;
+  border-radius: 8px;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  font-family: "Quicksand", sans-serif;
+  padding: .5em;
+  border-radius: 4px;
+}
+
+.socialmedia-nav {
+  display: none;
+}
+
+.socialmedia-bottom {
+  text-align: center;
+}
+
+.socialmedia-buttons {
+  display: inline-block;
+  max-width: 2em;
+  margin-top: 1em;
+}
+
+h1 {
+  font-family: "Patua One", cursive;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+.banner {
+  position: relative;
+}
+
+.banner-large {
+  display: none;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 10em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h3 {
+  font-family: "Patua One", cursive;
+}
+
+footer {
+  background-color: #000;
+  overflow: hidden;
+}
+
+footer li {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner-large {
+    display: block;
+  }
+
+  .banner-small {
+    display: none;
+  }
+
+  .banner-text {
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .header-bar {
+    display: none;
+  }
+
+  .top-nav {
+    display: inline-block;
+    position: static;
+    width: auto;
+    border: none;
+    padding-top: 10em;
+  }
+
+  .top-nav li {
+    display: block;
+  }
+
+  .top-nav li a {
+    display: block;
+    margin: 0;
+    background-color: inherit;
+    color: #fff;
+    padding: .25em .75em;
+    border-radius: 4px;
+  }
+
+  .nav-open, .nav-close {
+    display: none;
+  }
+
+  .nav-label {
+    display: none;
+  }
+
+  .nav-check:checked ~ .nav-label .nav-close {
+    display: none;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 10.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+  }
+
+  .socialmedia-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .socialmedia-bottom {
+    display: none;
+  }
+
+  .sign-up-bottom {
+    display: none;
+  }
+
+  .socialmedia-buttons {
+    display: inline-block;
+    max-width: 2.5em;
+    margin-top: 0;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 12em;
+    max-width: 40em;
+    max-height: 40em;
+  }
+
+  main {
+    margin-left: 10.5em;
+  }
+
+  .banner {
+    z-index: -100;
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+}
