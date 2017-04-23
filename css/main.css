@@ -53,6 +53,8 @@ nav {
 .top-nav a:hover {
   background-color: #2bb673;
   color: #fff;
+  padding: .125em;
+  border-radius: 3px;
 }
 
 .nav-check {
@@ -108,6 +110,12 @@ nav {
   border-radius: 4px;
 }
 
+.sign-up:hover {
+  color: #fff;
+  font-weight: bold;
+  background-color: #2bb673;
+}
+
 .socialmedia-nav {
   display: none;
 }
@@ -141,9 +149,6 @@ h2 {
 
 .banner-text {
   position: absolute;
-  bottom: 10em;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 h3 {
@@ -177,20 +182,6 @@ footer li {
 
 @media only screen and (min-width: 25em) {
 
-  .banner-large {
-    display: block;
-  }
-
-  .banner-small {
-    display: none;
-  }
-
-  .banner-text {
-    position: absolute;
-    bottom: 1em;
-    left: 50%;
-    transform: translateX(-50%);
-  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -274,6 +265,19 @@ footer li {
   .banner {
     z-index: -100;
     margin-top: 1em;
+  }
+
+
+  .banner-large {
+    display: block;
+  }
+
+  .banner-small {
+    display: none;
+  }
+
+  .banner-text {
+    position: absolute;
   }
 }
 
