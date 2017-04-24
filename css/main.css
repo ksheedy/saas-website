@@ -19,7 +19,7 @@ header {
   transform: translateX(-50%);
   max-width: 12em;
   max-height: 12em;
-  z-index: 1000;
+  z-index: 100;
 }
 
 nav {
@@ -51,10 +51,7 @@ nav {
 }
 
 .top-nav a:hover {
-  background-color: #2bb673;
-  color: #fff;
-  padding: .125em;
-  border-radius: 3px;
+  color: #2bb673;
 }
 
 .nav-check {
@@ -108,12 +105,17 @@ nav {
   font-family: Quicksand, sans-serif;
   padding: .5em;
   border-radius: 4px;
+  z-index: 100;
 }
 
 .sign-up:hover {
   color: #fff;
   font-weight: bold;
   background-color: #2bb673;
+}
+
+.nav-smi {
+  text-decoration: none;
 }
 
 .socialmedia-nav {
@@ -128,6 +130,7 @@ nav {
   display: inline-block;
   max-width: 2em;
   margin-top: 1em;
+
 }
 
 h1 {
@@ -154,6 +157,11 @@ h2 {
 
 h3 {
   font-family: "Patua One", cursive;
+}
+
+.main-text {
+  font-family: "Patua One", cursive;
+  color: #2bb673;
 }
 
 .samples {
@@ -355,7 +363,7 @@ footer li {
   .logo {
     position: absolute;
     top: 0;
-    left: 12em;
+    left: 5.25em;
     max-width: 40em;
     max-height: 40em;
   }
@@ -365,7 +373,6 @@ footer li {
   }
 
   .banner {
-    z-index: -100;
     margin-top: 1em;
   }
 
