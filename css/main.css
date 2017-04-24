@@ -171,6 +171,11 @@ h3 {
   font-family: "Glegoo", serif;
 }
 
+.pro-amateur {
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+
 .prices {
   color: #000;
   font-size: 3em;
@@ -194,6 +199,15 @@ h3 {
   max-width: 3.5em;
   margin: 0;
   display: inline-block;
+}
+
+.tool-title {
+  font-family: "Quicksand", sans-serif;
+}
+
+.browse {
+  font-family: "Patua One", cursive;
+  color: #000;
 }
 
 .tour-background {
