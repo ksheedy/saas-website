@@ -1,5 +1,5 @@
 html {
-  font-family: "Glegoo", serif;
+  font-family: Glegoo, serif;
 }
 
 header {
@@ -47,7 +47,7 @@ nav {
   color: #fff;
   font-size: 2em;
   text-decoration: none;
-  font-family: "Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .top-nav a:hover {
@@ -105,7 +105,7 @@ nav {
   text-decoration: none;
   color: #000;
   background-color: #fff;
-  font-family: "Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
   padding: .5em;
   border-radius: 4px;
 }
@@ -136,9 +136,10 @@ h1 {
 }
 
 h2 {
-  font-family: "Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #fff;
 }
+
 .banner {
   position: relative;
 }
@@ -168,11 +169,11 @@ h3 {
 }
 
 .questions2 {
-  font-family: "Glegoo", serif;
+  font-family: Glegoo, serif;
 }
 
 .pro-amateur {
-  font-family: "Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #fff;
 }
 
@@ -202,7 +203,7 @@ h3 {
 }
 
 .tool-title {
-  font-family: "Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .browse {
@@ -219,6 +220,10 @@ h3 {
   font-family: "Patua One", cursive;
 }
 
+.branding {
+  font-family: Quicksand, sans-serif;
+}
+
 .signup-title {
   color: #000;
   font-family: "Patua One", cursive;
@@ -228,7 +233,7 @@ label {
   display: block;
 }
 
-input, select{
+input, select {
   max-width: 20em;
 }
 
@@ -256,7 +261,7 @@ button:hover {
 
 .thankyou {
   color: #000;
-  font-family: "Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .lets-go {
@@ -280,11 +285,8 @@ footer li {
   display: inline-block;
 }
 
-@media only screen and (min-width: 25em) {
-
-}
-
 @media only screen and (min-width: 38em) {
+
   .header-bar {
     display: none;
   }
@@ -367,7 +369,6 @@ footer li {
     margin-top: 1em;
   }
 
-
   .banner-large {
     display: block;
   }
@@ -381,11 +382,4 @@ footer li {
     padding-left: 3.5em;
     padding-right: 3.5em;
   }
-}
-
-@media only screen and (min-width: 60em) {
-
-}
-
-@media only screen and (min-width: 90em) {
 }
