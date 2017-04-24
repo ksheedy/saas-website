@@ -171,6 +171,24 @@ h3 {
   font-family: "Glegoo", serif;
 }
 
+.prices {
+  color: #000;
+  font-size: 3em;
+  padding-top: 1em;
+}
+
+.pricing-box {
+  border: 4px solid #f2f2f2;
+}
+
+.price-signup {
+  background-color: #000;
+}
+
+.price-name {
+  font-family: "Patua One", cursive;
+  color: #fff;
+}
 footer {
   background-color: #000;
   overflow: hidden;
@@ -278,6 +296,8 @@ footer li {
 
   .banner-text {
     position: absolute;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
   }
 }
 
